@@ -6,16 +6,10 @@ const whichCard = document.querySelector("#which-card");
 
 document.addEventListener("keydown", (event) => {
    initialContent.style.display = "none";
-   //console.log(event);
-   let keyNumber = event.which;
-   //console.log(keyNumber);
-   let whichKey = event.key;
-   //console.log(whichKey);
-   let keycode = event.code;
-   //console.log(keyCode);
-   mainKeycode.textContent = `${keyNumber}`;
-   keyCard.innerHTML = `event.key<br> ${whichKey}`;
-   codeCard.innerHTML = `event.code<br> ${keycode}`;
-   whichCard.innerHTML = `event.which<br> ${keyNumber}`;
+
+   mainKeycode.textContent = event.which;
+   keyCard.innerHTML = `event.key<br> ${event.key}`;
+   codeCard.innerHTML = `event.code<br> ${event.code}`;
+   whichCard.innerHTML = `event.which<br> ${event.which}`;
 })
 
