@@ -10,6 +10,9 @@ body {
    line-height: 1.5;
    height: 100vh;
    background: linear-gradient(#a800cd, #0bbbf3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .main-content {
@@ -17,7 +20,6 @@ body {
 }
 
 .initial-content, .cards {
-   padding-top: 10em;
    text-align: center;
    font-weight: bold;
 }
@@ -39,12 +41,6 @@ body {
 
    .intro-text, .keycode-info {
       font-size: 4rem;
-   }
-
-   .main-content, .cards {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
    }
 
    .event-cards {
