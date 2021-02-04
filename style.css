@@ -27,7 +27,7 @@ body {
 }
 
 .card {
-   padding-bottom: 1.5em;
+   padding: 1em;
 }
 
 /* ----- Media Queries ----- */
@@ -41,14 +41,20 @@ body {
       font-size: 4rem;
    }
 
-   .card {
-      font-size: 1.5rem;
-   }
-
-   .main-content {
+   .main-content, .cards {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
    }
+
+   .event-cards {
+      display: flex;
+   }
+
+   .card {
+      font-size: 1.5rem;
+      padding: 1em 5em;
+   }
+
    
 }
