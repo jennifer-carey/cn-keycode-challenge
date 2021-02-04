@@ -16,8 +16,8 @@ document.addEventListener("keydown", (event) => {
    //console.log(keyCode);
    //console.log(keyNumber);
    mainKeycode.textContent = `${keyNumber}`;
-   keyCard.textContent = `${whichKey}`;
-   codeCard.textContent = `${keycode}`;
-   whichCard.textContent = `${keyNumber}`;
+   keyCard.innerHTML = `event.key<br> ${whichKey}`;
+   codeCard.innerHTML = `event.code<br> ${keycode}`;
+   whichCard.innerHTML = `event.which<br> ${keyNumber}`;
 })
 
