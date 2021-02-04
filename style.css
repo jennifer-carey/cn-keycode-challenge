@@ -7,6 +7,8 @@
 body {
    font-family: Tahoma, sans-serif;
    color: black;
+   text-align: center;
+   font-weight: bold;
    line-height: 1.5;
    height: 100vh;
    background: linear-gradient(#a800cd, #0bbbf3);
@@ -17,11 +19,6 @@ body {
 
 .main-content {
    padding: 1em;
-}
-
-.initial-content, .cards {
-   text-align: center;
-   font-weight: bold;
 }
 
 .intro-text, .keycode-info {
@@ -35,10 +32,6 @@ body {
 /* ----- Media Queries ----- */
 
 @media (min-width: 1000px) {
-   .initial-content, .cards {
-      padding-top: 0;
-   }
-
    .intro-text, .keycode-info {
       font-size: 4rem;
    }
@@ -51,6 +44,4 @@ body {
       font-size: 1.5rem;
       padding: 1em 5em;
    }
-
-   
 }
