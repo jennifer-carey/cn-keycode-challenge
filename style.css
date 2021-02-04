@@ -7,6 +7,7 @@
 body {
    font-family: Tahoma, sans-serif;
    color: black;
+   line-height: 1.5;
    height: 100vh;
    background: linear-gradient(#a800cd, #0bbbf3);
 }
@@ -15,13 +16,17 @@ body {
    padding: 1em;
 }
 
-.initial-content {
+.initial-content, .cards {
    padding-top: 10em;
-}
-
-.intro-text {
-   line-height: 1.5;
-   font-size: 2.4rem;
    text-align: center;
    font-weight: bold;
 }
+
+.intro-text, .keycode-info {
+   font-size: 2.4rem;
+}
+
+.card {
+   padding-bottom: 1.5em;
+}
+
