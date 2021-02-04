@@ -30,3 +30,25 @@ body {
    padding-bottom: 1.5em;
 }
 
+/* ----- Media Queries ----- */
+
+@media (min-width: 1000px) {
+   .initial-content, .cards {
+      padding-top: 0;
+   }
+
+   .intro-text, .keycode-info {
+      font-size: 4rem;
+   }
+
+   .card {
+      font-size: 1.5rem;
+   }
+
+   .main-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   
+}
