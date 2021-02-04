@@ -1,0 +1,47 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Tahoma, sans-serif;
+   color: black;
+   text-align: center;
+   font-weight: bold;
+   line-height: 1.5;
+   height: 100vh;
+   background: linear-gradient(#a800cd, #0bbbf3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-content {
+   padding: 1em;
+}
+
+.intro-text, .keycode-info {
+   font-size: 2.4rem;
+}
+
+.card {
+   padding: 1em;
+}
+
+/* ----- Media Queries ----- */
+
+@media (min-width: 1000px) {
+   .intro-text, .keycode-info {
+      font-size: 4rem;
+   }
+
+   .event-cards {
+      display: flex;
+   }
+
+   .card {
+      font-size: 1.5rem;
+      padding: 1em 5em;
+   }
+}
